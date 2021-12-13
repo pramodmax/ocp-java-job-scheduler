@@ -23,7 +23,6 @@ public class JobRunner {
             public void runShell(){
                 ProcessBuilder builder = new ProcessBuilder();
                 builder.command(CLEANUP_SCRIPT_PATH);
-//                builder.command("/Users/pramodpadmanabhan/Desktop/client/my/kube-java-scheduler/demo.sh");
                 try {
                     Process process = builder.start();
                     StringBuilder output = new StringBuilder();
